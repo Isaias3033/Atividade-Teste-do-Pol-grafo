@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interrogatório policial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">	
+      <div class="row">
+          <div class="two-thirds column">
+          <h2>Interrogatório Policial</h2>
+  
+          <div id="progress_bar"></div>
+              <form class="questions_box">
+  
+                <div id="pergunta-1">
+                    <h2>Questão 1</h2>
+                        <h3>Você estava no local do incidente quando ele ocorreu?</h3>
+                        <input id="question-1-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                        <input id="question-1-answer-b" type="radio" name="favelang" value=0>Não<br>
+                        <div id="submit1" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-2">
+                    <h2>Questão 2</h2>
+                        <h3>Você conhecia a vítima antes do incidente?</h3>
+                        <input id="question-2-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                        <input id="question-2-answer-b" type="radio" name="favelang" value=0>Não<br>
+                        <div id="submit2" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-3">
+                    <h2>Questão 3</h2>
+                        <h3>Você viu alguém suspeito no local do incidente?</h3>
+                        <input id="question-3-answer-a" type="radio" name="favelang" value=0>Sim<br>
+                        <input id="question-3-answer-b" type="radio" name="favelang" value=1>Não<br>
+                        <div id="submit3" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-4">
+                    <h2>Questão 4</h2>
+                        <h3>Você tentou ajudar a vítima de alguma forma?</h3>
+                        <input id="question-4-answer-a" type="radio" name="favelang" value=0>Sim<br>
+                        <input id="question-4-answer-b" type="radio" name="favelang" value=1>Não<br>
+                        <div id="submit4" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-5">
+                    <h2>Questão 5</h2>
+                        <h3>Você estava acompanhado no momento do incidente?</h3>
+                        <input id="question-5-answer-a" type="radio" name="favelang" value=0>Sim<br>
+                        <input id="question-5-answer-b" type="radio" name="favelang" value=1>Não<br>
+                        <div id="submit5" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-6">
+                    <h2>Questão 6</h2>
+                        <h3>Você já teve algum desentendimento com a vítima no passado?</h3>
+                        <input id="question-6-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                        <input id="question-6-answer-b" type="radio" name="favelang" value=0>Não<br>
+                        <div id="submit6" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-7">
+                    <h2>Questão 7</h2>
+                        <h3>Você possui algum objeto que pertença à vítima?</h3>
+                        <input id="question-7-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                        <input id="question-7-answer-b" type="radio" name="favelang" value=0>Não<br>
+                        <div id="submit7" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-8">
+                    <h2>Questão 8</h2>
+                        <h3>Alguém pode confirmar seu paradeiro no momento do incidente?</h3>
+                        <input id="question-8-answer-a" type="radio" name="favelang" value=0>Sim<br>
+                        <input id="question-8-answer-b" type="radio" name="favelang" value=1>Não<br>
+                        <div id="submit8" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-9">
+                    <h2>Questão 9</h2>
+                        <h3>Você já esteve envolvido em algum incidente parecido anteriormente?</h3>
+                        <input id="question-9-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                        <input id="question-9-answer-b" type="radio" name="favelang" value=0>Não<br>
+                        <div id="submit9" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="pergunta-10">
+                    <h2>Questão 10</h2>
+                        <h3>Você foi informado sobre o incidente por outra pessoa?</h3>
+                        <input id="question-10-answer-a" type="radio" name="favelang" value=0>Sim<br>
+                        <input id="question-10-answer-b" type="radio" name="favelang" value=1>Não<br>
+                        <div id="submit10" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+  
+           <div id="pergunta-11"> 
+             <h2>Obrigado por responder a pesquisa!</h2>
+             <h3>Seu score de segurança é: </h3>
+             <h1 id=mostrarResultado></h1>
+             <p id=resultado></p>
+  
+           </div>
+  
+  
+                    
+              </form>
+  
+          </div>
+        </div>
+    </div>
+  
+    <script src="scripts.js"></script>
+  </body>
+</html>
